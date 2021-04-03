@@ -1,0 +1,769 @@
+html {
+
+    font-size: 62.5%
+    
+}
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+/* Página Index */
+/* Barra de Navegación */
+
+
+
+.navbar {
+    
+    background: rgb(92,46,145);
+    background: linear-gradient(270deg, rgba(92,46,145,1) 0%, rgba(44,0,98,1) 100%);
+
+    width: 100%;
+    height: 10rem;
+
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+
+    box-shadow: 0rem 0.1rem 0.5rem rgb(31, 30, 30);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 100;
+
+}
+
+.navbar .navbar__content {
+
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar .navbar__content .navbar__ul {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+
+    list-style-type: none;
+
+    width: 35rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navbar .navbar__content li a {
+
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+
+.navbar .navbar__content li a:hover {
+
+    color: #e958bd;
+    text-decoration: none;
+
+}
+
+.navbar .navbar__content .navbar__buttoncursos {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+
+    background-color: #e958bd;
+
+    border-radius: 1.5rem;
+    
+    padding: 1.2rem 1.4rem 1.2rem 1.4rem;
+
+    transition: all 0.5s;
+
+}
+
+.navbar .navbar__content a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#navbar__buttoncursos--hover:hover {
+
+    background-color: #d64aac;
+
+}
+
+
+
+/* Header */
+
+
+
+.header {
+
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(22,22,22,1) 100%);
+    
+    height: 70vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 34rem;
+
+}
+
+.header .header__text {
+
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 5rem;
+
+}
+
+.header .header__text .hero__h1 {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.1;
+
+}
+
+.header .header__text .hero__h1 .hero__h1--purple {
+
+    color: #e958bd;
+}
+
+.header .header__text .hero__p {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+
+    text-align: justify;
+
+    margin: 3rem 0rem 3rem 0rem;
+
+}
+
+.header .header__text .hero__buttoncursos {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+
+    background-color: #e958bd;
+
+    border-radius: 1.5rem;
+    
+    padding: 1.2rem 1.4rem 1.2rem 1.4rem;
+
+    display: inline-block;
+
+    transition: all 0.5s;
+
+}
+
+.header .header__text a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.header .header__img {
+
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#header__buttoncursos--hover:hover {
+
+    background-color: #d64aac;
+
+}
+
+
+
+/* Beneficios */
+
+
+
+.beneficios {
+
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(22,22,22,1) 100%);
+    color: white;
+
+    font-family: "Roboto", sans-serif;
+
+    width: 100vw;
+    height: 38rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.beneficios .beneficios__benefit {
+
+    background: rgb(180,29,141);
+    background: linear-gradient(90deg, rgba(180,29,141,1) 0%, rgba(233,88,189,1) 100%);
+    text-align: center;
+    
+    width: 46rem;
+    height: 26rem;
+
+    position: relative;
+    top: 25rem;
+    z-index: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0.5rem 0.5rem 0.6rem -0.4rem rgb(29, 28, 28);
+
+    transition: all 0.2s;
+
+}
+
+.beneficios article:hover {
+
+    transform: translate(10px,10px) scale(1.1,1.1)
+
+}
+
+.beneficios .beneficios__benefit .beneficios__icon {
+
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+.beneficios .beneficios__benefit .beneficios__h2 {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+
+    padding: 4rem 0rem 2.5rem 0rem;
+
+}
+
+.beneficios .beneficios__benefit .beneficios__p {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+
+    padding: 0rem 8rem 0rem 8rem;
+
+}
+
+
+
+/* Razones */
+
+
+
+.razones {
+
+    font-family: "Roboto", sans-serif;
+
+    width: 100%;
+    height: 80rem;
+    margin: 15rem 0rem 0rem 0rem;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.razones .razones__img {
+
+    width: 60%;
+    padding: 0rem 0rem 0rem 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.razones .razones__container {
+
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.razones .razones__container .razones__h2 {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    
+    padding: 0rem 0rem 3rem 0rem;
+
+}
+
+.razones .razones__container .razones__h2--purple {
+
+    color: #e958bd;
+
+}
+
+.razones .razones__container .razones__razon {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+
+}
+
+.razones .razones__container .razones__explicacion {
+
+    font-weight: 400;
+    font-size: 1.8rem;
+
+    padding: 0.5rem 0rem 2rem 0rem;
+
+}
+
+
+
+/* Cursos */
+
+
+
+.cursos {
+
+    color: white;
+    background: rgb(92,46,145);
+    background: linear-gradient(270deg, rgba(92,46,145,1) 0%, rgba(44,0,98,1) 100%);
+    font-family: "Roboto", sans-serif;
+
+    width: 100vw;
+    padding: 10rem 0rem 10rem 0rem;
+
+}
+
+.cursos .cursos__h2 {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+
+    text-align: center;
+
+    padding: 0rem 0rem 5rem 0rem;
+
+}
+
+.cursos h2 {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem; 
+
+}
+
+.cursos .curso__container {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cursos .curso__container .curso__box {
+
+    font-weight: 400;
+    font-size: 1.8rem;
+    background: rgb(180,29,141);
+    background: linear-gradient(90deg, rgba(180,29,141,1) 0%, rgba(233,88,189,1) 100%);
+
+    width: 37rem;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8rem 0rem 8rem 0rem;
+    margin: 4rem;
+
+    transition: all 0.2s;
+
+}
+
+.cursos .curso__container article:hover {
+
+    transform: translate(10px,10px) scale(1.1,1.1)
+
+}
+
+.cursos .curso__container .curso__box .curso__icon {
+
+    margin: 0rem 0rem 0rem 0rem;
+
+    animation-name: shake__icon;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1.2s;
+    animation-delay: 0s;
+
+}
+
+@keyframes shake__icon {
+
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(5deg);}
+    50%{transform: rotate(0deg);}
+    75%{transform: rotate(-5deg);}
+    100%{transform: rotate(0deg);}
+
+}
+
+.cursos .curso__container .curso__box .curso__h3 {
+
+    font-weight: 600;
+    font-size: 2.2rem;
+
+    padding: 2rem 0rem 0rem 0rem;
+
+}
+
+.cursos .curso__container .curso__box .curso__p {
+
+    text-align: center;
+
+    width: 70%;
+
+    padding: 4rem 0rem 0rem 0rem;
+
+}
+
+.cursos ul {
+
+    padding-top: 4rem;
+
+}
+
+article a:visited {
+
+    color: white;
+
+}
+
+.cursos .curso__container .curso__box .curso__buttoncursos {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+
+    background-color: #5c2e91;
+
+    border-radius: 1.5rem;
+    
+    padding: 1.2rem 1.4rem 1.2rem 1.4rem;
+    margin-top: 6rem;
+
+    display: inline-block;
+
+    transition: all 0.5s;
+
+}
+
+.cursos .curso__container .curso__box a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#curso__buttoncursos--hover:hover {
+
+    background-color: #4f2580;
+
+} 
+
+
+
+/* FAQS */
+
+
+
+.faq {
+
+    font-family: "Roboto", sans-serif;
+
+    margin: 6rem 0rem 6rem 5rem;
+
+}
+
+.faq .faq__h2 {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+
+    text-align: center;
+    padding-bottom: 6rem;
+
+}
+
+.faq .faq__pregunta {
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+
+    padding-bottom: 0.5rem;
+
+}
+
+.faq .faq__respuesta {
+
+    font-weight: 400;
+    font-size: 1.8rem;
+
+    padding-bottom: 3rem;
+
+}
+
+
+
+/* Footer */
+
+
+
+.footer {
+
+    color: white;
+    background: rgb(92,46,145);
+    background: linear-gradient(270deg, rgba(92,46,145,1) 0%, rgba(44,0,98,1) 100%);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+    width: 100vw;
+    height: 12vh;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+}
+
+.footer .footer__h2 {
+
+    font-weight: 500;
+    font-size: 1.8rem;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1rem;
+
+}
+
+.footer .footer__redes {
+
+    grid-column: 1/2;   
+    grid-row: 2/3;
+
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 1rem;
+
+}
+
+.footer .footer__redes ul {
+
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#facebook {
+
+    padding-right: 0.5rem;
+
+}
+
+#instagram {
+
+    padding-left: 0.5rem;
+
+}
+
+.footer .footer__secciones {
+
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.footer .footer__secciones ul {
+    
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+
+    transition: all 0.5s;
+
+}
+
+.footer ul li {
+
+    list-style-type: none;
+
+}
+
+
+#footer__link--hover:hover {
+
+    color: #d64aac;
+
+}
+
+
+/* Página de Cursos */
+
+
+
+.mainCursos {
+
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: black;
+    
+    height: 100vh;
+
+    padding: 0rem 0rem 0rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mainCursos .mainCursos__h1 {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 0rem 0rem 3rem 0rem;
+
+}
+
+.mainCursos .mainCursos__h2 {
+
+    font-weight: 600;
+    font-size: 3rem;
+
+    padding: 0rem 0rem 0.5rem 0rem;
+
+}
+
+.mainCursos .mainCursos__p {
+
+    font-weight: 400;
+    font-size: 1.6rem;
+
+    padding: 0rem 0rem 3rem 0rem;
+
+}
+
+.mainCursos .mainCursos__h2--purple {
+
+    color: #e958bd;
+
+}
+
+
+
+/* Página de Profesores */
+
+
+
