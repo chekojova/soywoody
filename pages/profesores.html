@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Woody | Profesores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
@@ -31,58 +32,80 @@
 
     <main>
 
-        <div>
-                <h1>Conocé a Nuestros Profesores</h1>
-                <p>Todos nuestros profesores son influencers y grandes humoristas</p>
-        </div>
+        <section class="main__profesores">
 
-        <section>
-            <table border="1">
-                <tr>
-                    <th><img src="../img/akirakaneto.jpg" alt="Akira Kaneto" width="150" height="150"></th>
-                    <th><img src="../img/leandroigounet.jpg" alt="Leandro Igounet" width="150" height="150"></th>
-                    <th><img src="../img/diegosacco.jpg" alt="Diego Sacco" width="150" height="150"></th>
-                </tr>
-                <tr>
-                    <td>Akira Kaneto</td>
-                    <td>Leandro Igounet</td>
-                    <td>Diego Sacco</td>
-                </tr>
-                <tr>
-                    <td>Descripción de Akira Kaneto</td>
-                    <td>Descripción de Leandro Igounet</td>
-                    <td>Descripción de Diego Sacco</td>
-                </tr>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>Característica 1</li>
-                            <li>Característica 2</li>
-                            <li>Característica 3</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Característica 1</li>
-                            <li>Característica 2</li>
-                            <li>Característica 3</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Característica 1</li>
-                            <li>Característica 2</li>
-                            <li>Característica 3</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.tiktok.com/@akikaneto/" target="_blank">¡Stalkealo en Tik Tok!</a></td>
-                    <td><a href="http://www.instagram.com/leaigounet/"  target="_blank">¡Stalkealo en Instagram!</a></td>
-                    <td><a href="https://www.instagram.com/soydiegosacco/"  target="_blank">¡Stalkealo en Instagram!</a></td>
-                </tr>
-            </table>
+            <div class="h1__profesores">
+                <h1 class="h1__profesores">Conocé a Nuestros Profesores</h1>
+            </div>
+
+            <div class="p__profesores">
+                <p>Todos nuestros profesores son influencers y grandes humoristas</p>
+            </div>
+
+            <article class="profesores container-fluid">
+                <div class="container d-flex justify-content-center">
+                    <table>
+                        <tr>
+                            <th><img src="../img/akirakaneto.jpg" alt="Akira Kaneto" width="150" height="150"></th>
+                            <th><img src="../img/leandroigounet.jpg" alt="Leandro Igounet" width="150" height="150"></th>
+                            <th><img src="../img/diegosacco.jpg" alt="Diego Sacco" width="150" height="150"></th>
+                        </tr>
+                        <tr>
+                            <td>Akira Kaneto</td>
+                            <td>Leandro Igounet</td>
+                            <td>Diego Sacco</td>
+                        </tr>
+                        <tr>
+                            <td>Descripción de Akira Kaneto</td>
+                            <td>Descripción de Leandro Igounet</td>
+                            <td>Descripción de Diego Sacco</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Característica 1</li>
+                                    <li>Característica 2</li>
+                                    <li>Característica 3</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Característica 1</li>
+                                    <li>Característica 2</li>
+                                    <li>Característica 3</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Característica 1</li>
+                                    <li>Característica 2</li>
+                                    <li>Característica 3</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.tiktok.com/@akikaneto/" target="_blank">¡Stalkealo en Tik Tok!</a></td>
+                            <td><a href="http://www.instagram.com/leaigounet/"  target="_blank">¡Stalkealo en Instagram!</a></td>
+                            <td><a href="https://www.instagram.com/soydiegosacco/"  target="_blank">¡Stalkealo en Instagram!</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <div class="dropdown d-flex justify-content-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Elegí tu favorito y empezá a aprender
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">¡Quiero a Akira!</a></li>
+                  <li><a class="dropdown-item" href="#">¡Quiero a Lean!</a></li>
+                  <li><a class="dropdown-item" href="#">¡Quero a Dieguito!</a></li>
+                </ul>
+              </div>
+
         </section>
+
+
 
     </main>
 
@@ -107,6 +130,8 @@
         </div>
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

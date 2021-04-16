@@ -765,5 +765,72 @@ article a:visited {
 
 /* Página de Profesores */
 
+.main__profesores {
 
+    background-color: black;
+    padding-top: 30rem;
 
+    height: 90vh;
+    width: 100vw;
+
+}
+
+.main__profesores .h1__profesores {
+
+    color:white;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main__profesores .p__profesores {
+
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main__profesores .profesores {
+
+    padding-top: 4rem;
+
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+table {
+
+    background-color: #d64aac;
+
+}
+
+tr {
+
+    text-align: center;
+    font-size: 1.1rem;
+
+}
+
+tr td ul li {
+
+    list-style-type: none;
+
+}
